@@ -67,6 +67,7 @@ while not done:
 
     screen.fill(BLACK)
     spaceAnimation.action(screen)
+    spaceAnimation(fi/10)
     fi += 0.1
     # --- Go ahead and update the screen with what we've drawn.
     pygame.display.flip()
